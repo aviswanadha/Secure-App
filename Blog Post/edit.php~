@@ -1,0 +1,26 @@
+<?php 
+  require 'mysql.php';
+ 
+  function handle_edit_post(){
+   echo "Check post";
+	$title = $_POST['title'];
+	$text = $_POST['text'];
+  if (isset($title) and isset($text) ){
+	if(edit_post($title,$text))
+        echo " Post Updated";
+	else
+	echo "Post not updated";
+    }else{
+	echo "NO POST";
+	}
+	}
+  handle_edit_post();
+?>
+<form action="editpost.php" method="POST" class="form post">
+	<input type="hidden" name="nocsrftoken" value="<?php echo $rand;?>"/>
+	Title:<input type="text" name="title" /> <br>
+	text: <textarea name="text" required cols="100" rows="10"></textarea><br>
+	<button class="button" type="submit">
+		EDIT POST
+	</button>
+	</form>
