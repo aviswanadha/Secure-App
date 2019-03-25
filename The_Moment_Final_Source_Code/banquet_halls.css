@@ -1,0 +1,33 @@
+#header{
+    background-color:#000000;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+li{
+    float: right;
+    display: inline;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+li a:hover {
+    background-color: #696969;
+}
+p {
+display: block;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    font-size: 80px;
+}

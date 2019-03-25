@@ -1,0 +1,64 @@
+#header{
+    background-color:#000000;
+color:white;
+}
+#button1,#button2,#button3,#button4,#button5 {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+	height: 100px;
+	width: 225px;
+}
+
+#buttons {
+text-align: center;
+padding: 50px 50px;
+}
+
+#button1:hover {
+background-color: #696969
+}
+#button2:hover {
+background-color: #696969
+}
+#button3:hover {
+background-color: #696969
+}
+#button4:hover {
+background-color: #696969
+}
+#button5:hover {
+background-color: #696969
+}
+h1{
+color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+li {
+    float: right;
+    display: inline;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+li a:hover {
+    background-color: #696969;
+}
